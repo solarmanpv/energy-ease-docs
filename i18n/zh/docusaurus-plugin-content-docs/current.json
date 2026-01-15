@@ -1,0 +1,30 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started": {
+    "message": "开始使用",
+    "description": "The label for category Getting Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started.link.generated-index.title": {
+    "message": "开始使用",
+    "description": "The generated-index page title for category Getting Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started.link.generated-index.description": {
+    "message": "本节将带您快速上手，完成Energy Ease的安装与注册，并成功连接您的第一个设备。",
+    "description": "The generated-index page description for category Getting Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Using EnergyEase": {
+    "message": "使用Energy Ease",
+    "description": "The label for category Using EnergyEase in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Using EnergyEase.link.generated-index.title": {
+    "message": "使用Energy Ease",
+    "description": "The generated-index page title for category Using EnergyEase in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Using EnergyEase.link.generated-index.description": {
+    "message": "本节将依据底部标签栏的顺序，逐一详解Energy Ease每个标签页下的详细功能。",
+    "description": "The generated-index page description for category Using EnergyEase in sidebar tutorialSidebar"
+  }
+}

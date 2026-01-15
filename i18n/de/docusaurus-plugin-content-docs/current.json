@@ -1,0 +1,30 @@
+{
+  "version.label": {
+    "message": "Weiter",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started": {
+    "message": "Erste Schritte",
+    "description": "The label for category Getting Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started.link.generated-index.title": {
+    "message": "Erste Schritte",
+    "description": "The generated-index page title for category Getting Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started.link.generated-index.description": {
+    "message": "Starten Sie mit Energy Ease, indem Sie die App installieren, Ihr Konto erstellen und Ihr erstes Gerät einrichten.",
+    "description": "The generated-index page description for category Getting Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Using EnergyEase": {
+    "message": "Verwendung von EnergyEase",
+    "description": "The label for category Using EnergyEase in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Using EnergyEase.link.generated-index.title": {
+    "message": "Verwendung von EnergyEase",
+    "description": "The generated-index page title for category Using EnergyEase in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Using EnergyEase.link.generated-index.description": {
+    "message": "Dieser Abschnitt führt Sie durch die wichtigsten Funktionen, von der Energieüberwachung bis zu den persönlichen Einstellungen.",
+    "description": "The generated-index page description for category Using EnergyEase in sidebar tutorialSidebar"
+  }
+}

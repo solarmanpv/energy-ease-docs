@@ -1,0 +1,14 @@
+{
+  "logo.alt": {
+    "message": "开发者",
+    "description": "The alt text of navbar logo"
+  },
+  "title": {
+    "message": "Energy Ease",
+    "description": "The title in the navbar"
+  },
+  "item.label.Docs": {
+    "message": "文档",
+    "description": "Navbar item with label Docs"
+  }
+}
