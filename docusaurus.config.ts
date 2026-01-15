@@ -109,37 +109,6 @@ const config: Config = {
         },
       ],
     },
-    footer: {
-      logo: {
-        href: "/",
-        src: "img/footer_light.svg",
-        srcDark: "img/footer_dark.svg",
-        alt: "IGEN Documentation | IGEN Docs",
-        height: "36px",
-      },
-      links: [
-        {
-          title: "Product",
-          items: [
-            {
-              label: "Solarman",
-              href: "https://www.solarmanpv.com/",
-            },
-          ],
-        },
-        {
-          title: "Company",
-          items: [
-            {
-              label: "About Us",
-              href: "https://www.igen-tech.com/",
-            },
-          ],
-        },
-      ],
-      copyright:
-        "Copyright © IGEN Tech Co,Ltd since 2026. All rights reserved.",
-    },
     prism: {
       theme: prismThemes.github,
       darkTheme: {
