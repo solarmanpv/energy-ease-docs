@@ -5,6 +5,13 @@ description: Versionsverlauf und Funktionsverbesserungen der Energy-Ease-App.
 
 # Versionshinweise
 
+
+## V2.2.6
+
+Bekannte Probleme behoben und die System­sicherheit sowie Stabilität verbessert.
+
+---
+
 ## V2.2.5
 
 - Verbesserte Verwaltung der Haushaltsenergie und Preis­einstellungen

@@ -5,6 +5,12 @@ description: Energy Ease App version update history and feature improvements.
 
 # Release Notes
 
+## V2.2.6
+
+Fixed known issues and improved system security and stability.
+
+---
+
 ## V2.2.5
 
 - Improved home energy management and pricing experience

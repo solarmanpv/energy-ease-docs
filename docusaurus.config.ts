@@ -109,6 +109,11 @@ const config: Config = {
         },
       ],
     },
+    docs: {
+      sidebar: {
+        hideable: true,
+      },
+    },
     prism: {
       theme: prismThemes.github,
       darkTheme: {

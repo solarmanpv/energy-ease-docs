@@ -5,6 +5,12 @@ description: Historique des mises à jour et améliorations des fonctionnalités
 
 # Notes de version
 
+## V2.2.6
+
+Correction de problèmes connus et amélioration de la sécurité et de la stabilité du système.
+
+---
+
 ## V2.2.5
 
 
