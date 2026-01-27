@@ -54,4 +54,4 @@ Energy Ease 是一款专为家庭用户设计的智能能源管理应用，致�
 - 操作说明以 iOS 界面为例，Android 端操作流程基本一致。
 :::
 
-我们持续优化产品功能，致力于为您提供更优质的能源管理服务。如有任何问题或建议，欢迎通过App内建议板联系我们。
+我们持续优化产品功能，致力于为您提供更优质的能源管理服务。如有任何问题或建议，欢迎通过 App 内的建议板与我们联系，或发送邮件至<a href="mailto:app.support@energyease.tech">app.support@energyease.tech</a>。
