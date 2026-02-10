@@ -26,5 +26,17 @@
   "sidebar.tutorialSidebar.category.Using EnergyEase.link.generated-index.description": {
     "message": "本节将依据底部标签栏的顺序，逐一详解Energy Ease每个标签页下的详细功能。",
     "description": "The generated-index page description for category Using EnergyEase in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Brand Connection": {
+    "message": "连接能源品牌",
+    "description": "The label for category Brand Connection in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Brand Connection.link.generated-index.title": {
+    "message": "连接能源品牌",
+    "description": "The generated-index page title for category Brand Connection in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Brand Connection.link.generated-index.description": {
+    "message": "\n            将您的家庭能源设备连接到支持的品牌。在“我的”页面中，点击“连接能源品牌”，选择要连接的品牌，并按照下方对应指南获取所需的 API 凭证或其他授权信息。\n            ",
+    "description": "The generated-index page description for category Brand Connection in sidebar tutorialSidebar"
   }
 }
