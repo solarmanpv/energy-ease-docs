@@ -54,20 +54,12 @@ Solar power will:
 - Be automatically limited when the battery reaches 100% SOC.
 
 
-## 2. Activate Smart Mode
 
-1. Tap **More** to enter the feature introduction page.
-2. Read the Service Agreement and related information. After confirming everything is correct, check **I have read and agree to the Service Agreement**. Tap **Next** to complete activation.
-
-   <img src={require("./img/smart.png").default} width="240"/>
-   <img src={require("./img/activate_smart.png").default} width="240"/>
-
-
-## 3. Price-Based Strategy
+## 2. Price-Based Strategy
 
 Price-Based Strategy is the core of Smart Mode. By setting price thresholds, the system intelligently charges when prices are low and discharges when prices are high - maximizing the benefits from electricity price fluctuations.
 
-### 3.1 Create a New Strategy
+### 2.1 Create a New Strategy
 
 
 1. Tap the <img src={require("./img/settings_icon.png").default} width="30" style={{verticalAlign: "middle"}}/> icon in the Price-Based Strategy section to enter the settings page.
@@ -83,7 +75,7 @@ Price-Based Strategy is the core of Smart Mode. By setting price thresholds, the
    <img src={require("./img/preview_strategy.png").default} width="240"/>
 
 
-### 3.2 View Strategy
+### 2.2 View Strategy
 
 After a strategy is created, the Price-Based Strategy section will show the current schedule (Idle / Self-Consumed Prioritized / Charge / Discharge) and the toggle switch.
 
@@ -98,7 +90,7 @@ Tap the log icon at the top-right of the Price-Based Strategy page to open the s
 <img src={require("./img/strategy_log.png").default} width="240"/>
 
 
-### 3.3 Edit Strategy
+### 2.3 Edit Strategy
 
 On the Price-Based Strategy page, you can update existing strategies at any time, including modifying applied devices or adjusting the target trigger price.
 
