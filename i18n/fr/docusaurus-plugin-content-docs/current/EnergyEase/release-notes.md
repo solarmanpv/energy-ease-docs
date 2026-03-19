@@ -5,6 +5,44 @@ description: Historique des mises à jour et améliorations des fonctionnalités
 
 # Notes de version
 
+## V2.2.10
+
+- Ajout de la planification personnalisée de charge et décharge avec des intervalles de 15 minutes
+- Ajout de la demande de certification 800 W pour l’Allemagne
+- Amélioration de l’expérience du mode IA
+- Optimisation de l’affichage des données du compteur et des graphiques historiques
+- Accès plus rapide au mode local hors ligne
+- Correction de problèmes connus et amélioration de la stabilité
+
+---
+
+## V2.2.9
+
+- Optimisation de l’affichage des données énergétiques et de l’écran d’accueil pour une meilleure lisibilité
+- Amélioration de la logique des stratégies énergétiques pour une expérience plus fluide
+- Ajout et optimisation de la prise en charge de certains appareils et du mode local
+- Correction de problèmes connus et amélioration de la stabilité et des performances du système
+
+---
+
+## V2.2.8
+
+- Amélioration de l’expérience de gestion de l’énergie
+- Ajout de la prise en charge de nouveaux appareils et fonctionnalités
+- Correction de problèmes connus et amélioration des performances du système
+
+---
+
+## V2.2.7
+
+- Optimisation des stratégies énergétiques basées sur l’IA pour améliorer l’expérience globale
+- Ajout de la prise en charge de nouveaux appareils et fonctionnalités
+- Amélioration du processus de configuration des appareils et de la stabilité
+- Correction de problèmes connus et amélioration des performances du système
+
+---
+
+
 ## V2.2.6
 
 Correction de problèmes connus et amélioration de la sécurité et de la stabilité du système.

@@ -5,6 +5,42 @@ description: Versionsverlauf und Funktionsverbesserungen der Energy-Ease-App.
 
 # Versionshinweise
 
+## V2.2.10
+
+- Benutzerdefinierte Lade- und Entladezeitpläne mit 15-Minuten-Intervallen hinzugefügt
+- 800-W-Qualifikationsantrag für Deutschland hinzugefügt
+- AI-Modus-Erlebnis verbessert
+- Anzeige von Zählerdaten und Verlaufsdiagrammen optimiert
+- Schnellerer Zugriff auf den lokalen Modus im Offline-Betrieb
+- Bekannte Probleme behoben und Stabilität verbessert
+
+---
+
+## V2.2.9
+
+-Optimierung der Darstellung von Energiedaten und der Startseite für mehr Übersichtlichkeit
+-Anpassung und Verbesserung der Energiestrategien für ein besseres Nutzungserlebnis
+-Erweiterte und optimierte Unterstützung ausgewählter Geräte sowie des lokalen Modus
+-Behebung bekannter Probleme und Verbesserung der Systemstabilität und -leistung
+
+---
+
+## V2.2.8
+
+- Verbesserung der Energieverwaltungs-Erfahrung
+- Unterstützung für weitere Geräte und Funktionen hinzugefügt
+- Bekannte Probleme behoben und Systemleistung verbessert
+
+---
+
+## V2.2.7
+
+- Optimierung der KI-Energiestrategien zur Verbesserung des Nutzungserlebnisses
+- Unterstützung für weitere Geräte und Funktionen hinzugefügt
+- Verbesserter Gerätekonfigurationsprozess und höhere Stabilität
+- Bekannte Probleme behoben und die Systemleistung verbessert
+
+---
 
 ## V2.2.6
 
