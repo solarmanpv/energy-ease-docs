@@ -5,6 +5,43 @@ description: Energy Ease App version update history and feature improvements.
 
 # Release Notes
 
+## V2.2.10
+
+- Added custom charge and discharge schedules with 15-minute intervals
+- Added 800W qualification application for Germany
+- Improved AI mode experience
+- Optimized meter data display and historical charts
+- Faster access to Local Mode when offline
+- Fixed known issues and improved stability
+
+---
+
+## V2.2.9
+
+- Optimized home energy data and home screen presentation for clearer insights
+- Improved energy strategy logic for a better user experience
+- Added and enhanced support for selected devices and local mode
+- Fixed known issues and improved overall system stability and performance
+
+---
+
+## V2.2.8
+
+- Improve energy management experience
+- Add support for additional devices and features
+- Fix known issues and enhance system performance
+
+---
+
+## V2.2.7
+
+- Optimized AI energy strategies to improve overall user experience
+- Added support for additional devices and features
+- Improved device setup process and stability
+- Fixed known issues and enhanced system performance
+
+---
+
 ## V2.2.6
 
 Fixed known issues and improved system security and stability.
