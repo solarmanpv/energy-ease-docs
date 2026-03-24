@@ -45,20 +45,12 @@ Im Stillstand lädt oder entlädt die Batterie nicht aktiv:
 - ist die Batterie vollständig geladen, wird die PV-Leistung automatisch begrenzt.
 
 
-## 2. Smart-Modus aktivieren
 
-1. Tippen Sie auf **Mehr**, um die Funktionsübersichtsseite zu öffnen.
-2. Lesen Sie die Servicevereinbarung und die zugehörigen Informationen. Nach Bestätigung, dass alles korrekt ist, aktivieren Sie **Ich habe die Servicevereinbarung gelesen**. Tippen Sie auf **Weiter**, um die Aktivierung abzuschließen.
-
-   <img src={require("./img/smart.png").default} width="240"/>
-   <img src={require("./img/activate_smart.png").default} width="240"/>
-
-
-## 3. Preisgesteuert
+## 2. Preisgesteuert
 
 Die preisstrategie ist das Kernstück des Smart-Modus. Durch Festlegen von Preisschwellen lädt das System intelligent bei niedrigen Preisen und entlädt bei hohen Preisen – so werden die Vorteile von Strompreisschwankungen maximal genutzt.
 
-### 3.1 Neue Strategie erstellen
+### 2.1 Neue Strategie erstellen
 
 Bevor Sie eine Strategie erstellen, stellen Sie sicher, dass Sie Ihren [Stromtarif](./profile.md#3-tarif) eingerichtet haben:
 
@@ -76,7 +68,7 @@ Bevor Sie eine Strategie erstellen, stellen Sie sicher, dass Sie Ihren [Stromtar
 
 
 
-### 3.2 Strategie anzeigen
+### 2.2 Strategie anzeigen
 
 Nach der Erstellung einer Strategie zeigt der Abschnitt Preisbasierte Strategie den aktuellen Status (Leerlauf / Eigenverbrauch Priorisiert / Laden / Entladen) und den Schalter an.
 
@@ -90,7 +82,7 @@ Tippen Sie auf den Abschnitt **Preisgesteuert**, um den Zeitplan und die Geräte
 
 <img src={require("./img/strategy_log.png").default} width="240"/>
 
-### 3.3 Strategie bearbeiten
+### 2.3 Strategie bearbeiten
 
 Auf der Preisstrategie-Seite können bestehende Strategien jederzeit angepasst werden, einschließlich der **Gerätezuordnung** und des **Zielpreises**.
 

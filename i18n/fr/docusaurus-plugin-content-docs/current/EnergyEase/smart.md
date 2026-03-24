@@ -46,20 +46,11 @@ En état statique, la batterie ne charge ni ne décharge activement.
 - une fois la batterie pleine, la puissance photovoltaïque est automatiquement limitée.
 
 
-## 2. Activer le mode intelligent
-
-1. Appuyez sur **Plus d'informations** pour accéder à la page de présentation de la fonctionnalité.  
-2. Lisez l'accord de Service et les informations associées. Après avoir confirmé que tout est correct, cochez **J'ai lu et j'accepte l'accord de service**. Appuyez sur **Suivant** pour compléter l'activation.
-
-   <img src={require("./img/smart.png").default} width="240"/>
-   <img src={require("./img/activate_smart.png").default} width="240"/>
-
-
-## 3. Piloté par les prix
+## 2. Piloté par les prix
 
 La stratégie piloté sur les prix est le cœur du mode intelligent. En définissant des seuils de prix, le système charge intelligemment lorsque les prix sont bas et décharge lorsque les prix sont élevés, maximisant ainsi les bénéfices des fluctuations des tarifs électriques.
 
-### 3.1 Créer une stratégie
+### 2.1 Créer une stratégie
 
 Avant de créer une stratégie, assurez-vous d'avoir configuré votre [tarif d'électricité](./profile.md#3-tarif) :
 
@@ -77,7 +68,7 @@ Avant de créer une stratégie, assurez-vous d'avoir configuré votre [tarif d'�
 
 
 
-### 3.2 Voir la Stratégie
+### 2.2 Voir la Stratégie
 
 Après création d'une stratégie, la section Piloté par les prix* affichera l'état actuel (Veille / Priorité à l'Auto-consommation / Charge / Décharge) et le bouton de bascule.
 
@@ -92,7 +83,7 @@ Appuyez sur l’icône de journal en haut à droite de la page Stratégie de pri
 <img src={require("./img/strategy_log.png").default} width="240"/>
 
 
-### 3.3 Modifier la Stratégie
+### 2.3 Modifier la Stratégie
 
 Sur la page Stratégie de prix, vous pouvez à tout moment ajuster les stratégies créées, y compris modifier les appareils associés ou ajuster le prix cible de déclenchement.
 
