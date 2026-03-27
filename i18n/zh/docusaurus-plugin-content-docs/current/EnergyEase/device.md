@@ -149,7 +149,7 @@ import TabItem from '@theme/TabItem';
 若家庭中暂无可用以关联的设备，请先点击[添加设备](./add-device.md)按钮，将所需设备加入家庭。
 <img src={require("./img/link_new_device.png").default} width="240"/>  
 
-### 4.3 网络设置
+### 4.4 网络设置
 
 点击**网络设置**按钮，可查看设备当前连接的Wi-Fi名称及获取的IP地址。
 
@@ -157,7 +157,7 @@ import TabItem from '@theme/TabItem';
 <img src={require("./img/network_settings.png").default} width="240"/>
 
 
-### 4.4 固件升级
+### 4.5 固件升级
 
 点击**固件升级**按钮，可查看设备当前固件版本及可用更新。如有新版本，点击**立即更新**即可在线升级。
 
