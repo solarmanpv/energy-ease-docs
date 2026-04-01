@@ -355,28 +355,7 @@ Select your preferred decimal separator: dot or comma.
 Tap **Save** and all changes will take effect immediately. You can return anytime to adjust preferences.
 
 
-## 7. Suggestions Board
-
-The Suggestions Board is your direct channel to communicate with us - submit product suggestions or report issues encountered during use.
-
-Tap **Suggestions Board** to enter the feature.
-<img src={require("./img/profile_page.png").default} width="240"/>
-
-You can perform the following actions:
-
-- View suggestions: Browse feature suggestions and feedback from other users.
-   <img src={require("./img/suggestions.png").default} width="240"/>
-
-- Report an issue: Tap **Report it directly**, describe the problem, and submit it.
-   <img src={require("./img/tap_report_issue.png").default} width="240"/>
-   <img src={require("./img/report_issue.png").default} width="240"/>
-
-- Share suggestions: Tap **Share Suggestion** to provide your ideas for improvements or new features.
-   <img src={require("./img/share_suggestion1.png").default} width="240"/>
-   <img src={require("./img/share_suggestion2.png").default} width="240"/>
-
-
-## 8. Operation Services
+## 7. Operation Services
 
 For easier maintenance, you can add and manage service providers (such as retailer and installers) via **Operation Services**. After authorization, a provider can view your basic device information to offer more accurate support.
 
@@ -384,7 +363,7 @@ For easier maintenance, you can add and manage service providers (such as retail
 <img src={require("./img/operation_service.png").default} width="240"/>
 
 
-## 9. Direct Device Connection
+## 8. Direct Device Connection
 
 Direct Device Connection uses Bluetooth for nearby communication, allowing you to monitor and manage supported devices without connecting to the home network.
 
@@ -415,7 +394,7 @@ Ensure Bluetooth is enabled on your phone and the target device is powered on an
    <img src={require("./img/disconnect_device.png").default} width="240"/>
 
 
-## 10. Remote Support
+## 9. Remote Support
 
 This function helps after-sales technicians quickly locate and resolve potential device issues.
 
@@ -453,7 +432,7 @@ This function helps after-sales technicians quickly locate and resolve potential
 :::
 
 
-## 11. About Energy Ease
+## 10. About Energy Ease
 
 Tap **About Energy Ease** to learn more about the app, including the current version, service and privacy agreements, third-party information sharing list, permission descriptions, and system permission management.
 

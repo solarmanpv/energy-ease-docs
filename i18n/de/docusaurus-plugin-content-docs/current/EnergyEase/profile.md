@@ -348,33 +348,14 @@ Wählen Sie Ihr bevorzugtes Dezimaltrennzeichen: Punkt oder Komma.
 Tippen Sie auf **Speichern**, damit alle Änderungen sofort wirksam werden. Sie können die Einstellungen jederzeit erneut anpassen.
 
 
-## 7. Vorschlagsbrett
-
-Das Vorschlagsbrett ist Ihr direkter Kommunikationskanal zu uns – reichen Sie Produktvorschläge ein oder melden Sie Probleme, die während der Nutzung aufgetreten sind.
-
-Tippen Sie auf **Vorschlagsbrett**, um die Funktion zu öffnen.
-<img src={require("./img/profile_page.jpg").default} width="240"/>
-
-Sie können folgende Aktionen durchführen:
-
-- Vorschläge anzeigen: Durchsuchen Sie Funktionsvorschläge und Feedback anderer Nutzer.
-   <img src={require("./img/suggestions.jpg").default} width="240"/>
-
-- Problem melden: Tippen Sie auf **Es direkt melden**, beschreiben Sie das Problem und senden Sie es ab.
-   <img src={require("./img/report_issue.png").default} width="240"/>
-
-- Vorschläge teilen: Tippen Sie auf **Vorschlag teilen**, um Ihre Ideen für Verbesserungen oder neue Funktionen einzureichen.
-   <img src={require("./img/share_suggestion2.png").default} width="240"/>
-
-
-## 8. Betriebsservices
+## 7. Betriebsservices
 
 Für eine einfachere Wartung können Sie über **Betriebsservices** Dienstleister (z. B. Händler oder Installateure) hinzufügen und verwalten. Nach der Autorisierung kann ein Dienstleister grundlegende Geräteinformationen einsehen, um gezielteren Support zu bieten.
 
 <img src={require("./img/profile_page.jpg").default} width="240"/>
 <img src={require("./img/operation_service.png").default} width="240"/>
 
-## 9. Direktverbindung zum Gerät
+## 8. Direktverbindung zum Gerät
 
 Die Direktverbindung zum Gerät nutzt Bluetooth für die Kommunikation in der Nähe und ermöglicht es Ihnen, unterstützte Geräte auch ohne Verbindung zum Heimnetzwerk zu überwachen und zu verwalten.
 
@@ -405,7 +386,7 @@ Stellen Sie sicher, dass Bluetooth auf Ihrem Smartphone aktiviert ist und das Zi
    <img src={require("./img/disconnect_device.png").default} width="240"/>
 
 
-## 10. Fernunterstützung
+## 9. Fernunterstützung
 
 Diese Funktion unterstützt Servicetechniker dabei, potenzielle Geräteprobleme schnell zu lokalisieren und zu beheben.
 
@@ -441,7 +422,7 @@ Diese Funktion unterstützt Servicetechniker dabei, potenzielle Geräteprobleme 
 :::
 
 
-## 11. Über Energy Ease
+## 10. Über Energy Ease
 
 Tippen Sie auf **Über Energy Ease**, um weitere Informationen zur App zu erhalten, einschließlich der aktuellen Version, Nutzungsbedingungen, Datenschutzerklärung, Liste für die Weitergabe an Dritte, Beschreibung der Systemberechtigung, Systemberechtigungen.
 
