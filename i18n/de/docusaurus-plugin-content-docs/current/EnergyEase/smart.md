@@ -79,23 +79,27 @@ In der Standardzeit entlädt die Batterie nicht aktiv. Überschüssige PV-Energi
 1. Klicken Sie im Modul **Dynamischer Tarifmodus** oben rechts auf <img src={require("./img/settings_icon.png").default} width="30" style={{verticalAlign: "middle"}}/>.  
 2. Stellen Sie sicher, dass folgende Konfigurationen abgeschlossen sind:  
 
-   ✅ [**Dynamischer Strompreis**](./profile.md#31-添加电价) eingerichtet  
+   ✅ [**Dynamischer Strompreis**](./profile.md#31-stromtarif-hinzufügen) eingerichtet  
    ✅ Geräte für die Strategie hinzugefügt  
 
    Falls nicht, konfigurieren Sie diese und klicken Sie auf **Weiter**.  
 
-3. Legen Sie den **[Zielpreis](#调整目标价格)** fest:  
+3. Legen Sie den **[Zielpreis](#zielpreis-anpassen)** fest:  
    - Manuell / Automatisch / Intelligent  
-   - Strategie bei Nichterfüllung wählen (Eigenverbrauch / Ruhemodus)  
+   - Strategie bei Nichterfüllung wählen (Eigenverbrauch / Leerlauf)  
 
    Danach auf **Weiter** klicken.  
 
 4. Geräte auswählen und **Weiter** klicken.  
-   > (Optional) Über **⚙ Erweiterte Einstellungen** den [Betriebsmodus](#11-设备如何运行) konfigurieren  
+   > (Optional) Über **⚙ Erweiterte Einstellungen** den [Betriebsmodus](#11-gerätebetrieb) konfigurieren  
 
 5. Lade-/Entladeplan prüfen und mit **Aktivieren** bestätigen.  
 
-
+<img src={require("./img/smart.png").default} width="240"/>
+<img src={require("./img/strategy_requirements.png").default} width="240"/>
+<img src={require("./img/price_setting.png").default} width="240"/>
+<img src={require("./img/select_strategy_device.png").default} width="240"/>
+<img src={require("./img/preview_strategy.png").default} width="240"/>
 
 
 ### 1.3 Strategie anzeigen
@@ -171,7 +175,7 @@ Der KI-Modus nutzt historische Daten, um die **Photovoltaik-Erzeugung** und den 
 4. Wählen Sie die **an der Strategie teilnehmenden Geräte** aus und tippen Sie auf **Weiter**.  
 5. Sehen Sie sich die vom System generierte Vorschau an und tippen Sie auf **Aktivieren**, um den KI-Modus zu starten.  
 
-<img src={require("./img/set_smart_mode.png").default} width="240"/>
+<img src={require("./img/smart.png").default} width="240"/>
 <img src={require("./img/ai_mode_conditions.png").default} width="240"/>
 <img src={require("./img/ai_mode_address.png").default} width="240"/>
 <img src={require("./img/ai_mode_device.png").default} width="240"/>

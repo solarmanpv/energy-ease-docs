@@ -79,22 +79,27 @@ En état inactif, la batterie ne décharge pas activement et l’excédent photo
 1. Cliquez sur **Mode de tarification dynamique** en haut à droite <img src={require("./img/settings_icon.png").default} width="30" style={{verticalAlign: "middle"}}/>。
 2. Vérifiez que les configurations suivantes sont terminées：  
 
-   ✅ **Tarif dynamique** configuré  
-   ✅ Appareils ajoutés à la stratégie  
+   ✅ Le [**tarif dynamique**](./profile.md#31-ajouter-un-tarif-délectricité) est configuré  
+   ✅ Des équipements pouvant participer à la stratégie ont été ajoutés  
 
    Si ce n’est pas le cas, cliquez sur la zone correspondante pour configurer, puis cliquez sur **Suivant**。
 
-3. Définissez le **prix cible** déclenchant la charge/décharge：
+3. Définissez le **[prix cible](#ajuster-le-prix-cible)** déclenchant la charge/décharge：
    - Modes manuel / automatique / intelligent pris en charge  
-   - Choisissez la **stratégie lorsque les conditions ne sont pas remplies**（autoconsommation / inactif） 
+   - Choisissez la **stratégie de secours** (autoconsommation / verille) 
  
    Une fois terminé, cliquez sur **Suivant**。
 
 4. Sélectionnez les **appareils participant à la stratégie**, puis cliquez sur **Suivant**。
-   > （Optionnel）Cliquez sur **⚙ Paramètres avancés** pour configurer le [mode de fonctionnement](#11-设备如何运行) selon les périodes de prix  
+   > （Optionnel）Cliquez sur **⚙ Paramètres avancés** pour configurer le [mode de fonctionnement](#11-fonctionnement-de-lappareil) selon les périodes de prix  
    
 5. Prévisualisez le plan de charge/décharge, puis cliquez sur **Activer**。
 
+<img src={require("./img/smart.png").default} width="240"/>
+<img src={require("./img/strategy_requirements.png").default} width="240"/>
+<img src={require("./img/price_setting.png").default} width="240"/>
+<img src={require("./img/select_strategy_device.png").default} width="240"/>
+<img src={require("./img/preview_strategy.png").default} width="240"/>
 
 ### 1.3 Voir la stratégie
 
@@ -171,7 +176,7 @@ Le mode IA analyse les données historiques pour prédire intelligemment la **pr
 4. Sélectionnez les **équipements participant à la stratégie**, puis cliquez sur **Suivant**.  
 5. Prévisualisez les prévisions générées par le système, puis cliquez sur **Activer** pour activer le mode IA.  
 
-<img src={require("./img/set_ai_mode.png").default} width="240"/>
+<img src={require("./img/smart.png").default} width="240"/>
 <img src={require("./img/ai_mode_conditions.png").default} width="240"/>
 <img src={require("./img/ai_mode_address.png").default} width="240"/>
 <img src={require("./img/ai_mode_device.png").default} width="240"/>

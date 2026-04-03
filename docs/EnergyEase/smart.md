@@ -80,24 +80,27 @@ In idle state, the battery does not actively discharge, and surplus PV energy is
 1. Tap the <img src={require("./img/settings_icon.png").default} width="30" style={{verticalAlign: "middle"}}/> icon in the top-right corner of the **Dynamic Pricing Mode** module.  
 2. Make sure the following are set up:  
 
-   ✅ **Dynamic tariff** has been configured  
+   ✅ **[Dynamic tariff](./profile.md#31-add-electricity-price)** has been configured  
    ✅ Devices participating in the strategy have been added  
 
    If not, complete the setup and tap **Next**.  
 
-3. Set the **target price** to trigger charging/discharging:  
-   - Manual / Automatic / Smart modes are supported  
+3. Set the **[target price](#adjust-target-price)** to trigger charging/discharging:  
+   - Manual / Auto / Smart modes are supported  
    - Choose the **fallback strategy** (Self-consumption / Idle) when conditions are not met  
 
    Then tap **Next**.  
 
-4. Select the **devices to include in the strategy**, then tap **Next**.  
-   > (Optional) Tap **⚙ Advanced Settings** to configure operating modes for different price periods  
+4. Select the **device for the strategy**, then tap **Next**.  
+   > (Optional) Tap **⚙ Advanced Settings** to configure [operating modes](#11-how-the-device-operates) for different price periods  
 
 5. Preview the plan and tap **Enable** to activate it.  
 
 <img src={require("./img/smart.png").default} width="240"/>
-
+<img src={require("./img/strategy_requirements.png").default} width="240"/>
+<img src={require("./img/price_setting.png").default} width="240"/>
+<img src={require("./img/select_strategy_device.png").default} width="240"/>
+<img src={require("./img/preview_strategy.png").default} width="240"/>
 
 
 ### 1.3 View Strategy
@@ -171,7 +174,7 @@ AI Mode uses historical data to intelligently predict **PV generation** and **ho
    If not completed, tap the corresponding section to configure it, then tap **Next**.  
 
 3. If the system detects PV information, add the **address** and **PV details**. If not, check whether there are PV devices not connected to the platform to ensure prediction accuracy. Tap **Next**.  
-   > (Optional) Tap **⚙ Advanced Settings** to configure the [price spread](#modify-price-spread).  
+   > (Optional) Tap **⚙ Advanced Settings** to configure the [price spread](#modify-price-difference).  
 
 4. Select the **devices participating in the strategy**, then tap **Next**.  
 5. Preview the system-generated forecast, then tap **Enable** to activate AI Mode.  
