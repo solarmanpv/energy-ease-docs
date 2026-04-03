@@ -163,37 +163,47 @@ En bas de la page de gestion, touchez **Supprimer**. Après confirmation, la mai
 
 ## 3. Tarif
 
+Après avoir configuré le tarif d’électricité dans l’application, le système peut calculer les coûts et les revenus énergétiques, et activer des fonctionnalités telles que le mode de tarification dynamique et le mode IA.
+
 Touchez **Tarif** pour accéder à la gestion des prix de l’électricité.
 
 <img src={require("./img/profile_page.png").default} width="240"/>
 <img src={require("./img/tariff.png").default} width="240"/>
 
-### 3.1 Ajouter un tarif
+### 3.1 Ajouter un tarif d’électricité
 
-Touchez **+ Ajouter le prix de l’électricité** pour créer un nouveau plan de **prix d’achat ou de vente**.  
+Cliquez sur le bouton **+ Ajouter le prix de l'électricité** pour créer un nouveau **prix d’achat ou de vente de l’électricité**.
 <img src={require("./img/add_price.png").default} width="240"/>
 <img src={require("./img/electricity_price.png").default} width="240"/>
 
-Le processus est similaire pour l’achat et la vente ; l’exemple ci-dessous concerne le prix d’achat :  
+Le processus de configuration des prix d’achat et de vente est similaire. L’exemple suivant utilise le prix d’achat :
 <img src={require("./img/configure_price.png").default} width="240"/>
 
-1. Définir l’**heure de début et de fin** du tarif.
+1. Définissez la **date de début et de fin** du tarif.  
+   - Par défaut, la date de fin est définie sur « Maintenant » et le tarif reste actif.  
+      <img src={require("./img/price_start_end_time1.png").default} width="240"/>
 
-   - La fin est par défaut **Maintenant**, ce qui signifie que le prix reste actif.  
-   - Pour un tarif historique, désactivez **Maintenant** et sélectionnez manuellement la période.  
+   - Pour configurer une période passée, désactivez « Maintenant » et sélectionnez manuellement la période.  
+      <img src={require("./img/price_start_end_time2.png").default} width="240"/>
 
-2. Sélectionnez la **zone** de votre maison.  
-3. Choisissez votre **fournisseur d’électricité**.  
-4. Configurez le plan de **tarif électrique** :  
-   - **Dynamique** : nécessite de définir les taxes et le prix fixe mensuel.  
-      <img src={require("./img/dynamic_tariff.png").default} width="240"/>  
+2. Sélectionnez votre **zone**.  
+3. Choisissez votre **fournisseur** d’électricité dans la liste.  
+4. Selon votre contrat, sélectionnez le **type** de tarif et effectuez la configuration :  
 
-   - **Statique** : définir les tarifs flexible (TOU) pour chaque période.  
-     <img src={require("./img/static_tariff1.png").default} width="240"/>
-     <img src={require("./img/static_tariff2.png").default} width="240"/>
-     <img src={require("./img/static_tariff3.png").default} width="240"/>
+   - **Tarif fixe** : Le prix reste constant tout au long de la journée et ne varie pas avec le temps. Définissez le prix d’achat fixe actuel.  
+       <img src={require("./img/fixed_rate.png").default} width="240"/>
 
-5. Touchez **Enregistrer**.
+   - **Tarif flexible** : Le prix varie selon les périodes de la journée, avec des tarifs différents pour les heures pleines et creuses. Définissez les prix pour chaque période.  
+
+      <img src={require("./img/tou_rate1.png").default} width="240"/>
+      <img src={require("./img/tou_rate2.png").default} width="240"/>
+
+   - **Tarif dynamique** : Le prix évolue en temps réel selon le marché. Configurez les paramètres de calcul :  
+     > Tarif personnalisé = (Prix de gros × Coefficient + Frais de service) × (1 + TVA)
+      
+      <img src={require("./img/dynamic_rate.png").default} width="240"/>
+
+5. Cliquez sur **Enregistrer** pour finaliser la configuration du tarif.
 
 :::info
 Ces paramètres servent uniquement à la visualisation et estimation dans l’application. La facturation réelle dépend des données officielles du fournisseur.

@@ -7,13 +7,13 @@ description: Verwalten Sie Ihr Konto und passen Sie Ihre persönlichen Einstellu
 
 Tippen Sie in der unteren Navigationsleiste auf den Tab **Profil**, um die Seite zu öffnen. Diese Seite dient zur Verwaltung von Kontoinformationen, zur Anpassung von App-Einstellungen sowie zur Konfiguration personalisierter Optionen.
 
-<img src={require("./img/profile_page.jpg").default} width="240"/>
+<img src={require("./img/profile_page.png").default} width="240"/>
 
 ## 1. Konto
 
 Tippen Sie auf **Konto**, um die Kontoeinstellungsseite zu öffnen. Dort können Sie alle kontobezogenen Konfigurationen einsehen und verwalten.
 
-<img src={require("./img/profile_page.jpg").default} width="240"/>
+<img src={require("./img/profile_page.png").default} width="240"/>
 <img src={require("./img/account.png").default} width="240"/>
 
 
@@ -71,7 +71,7 @@ Sie können die Passwortspeicherung (einschließlich Anmelde- und WLAN-Passwort)
 
 Tippen Sie auf den Namen Ihres aktuellen Zuhauses, um die Informationsseite des Zuhauses zu öffnen.
 
-<img src={require("./img/profile_page.jpg").default} width="240"/>
+<img src={require("./img/profile_page.png").default} width="240"/>
 <img src={require("./img/edit_home.jpg").default} width="240"/>
 
 
@@ -173,45 +173,47 @@ Tippen Sie am unteren Rand der Zuhause-Verwaltungsseite auf **Löschen**. Nach d
 
 ## 3. Tarif
 
+Nachdem der Stromtarif in der App eingerichtet wurde, kann das System Energiekosten und Erträge berechnen sowie Funktionen wie den dynamischen Tarifmodus und den KI-Modus nutzen.
+
 Tippen Sie auf **Tarif**, um die Verwaltungsoberfläche für Strompreise zu öffnen.
 
-<img src={require("./img/profile_page.jpg").default} width="240"/>
+<img src={require("./img/profile_page.png").default} width="240"/>
 <img src={require("./img/tariff.jpg").default} width="240"/>
 
+### 3.1 Stromtarif hinzufügen
 
-### 3.1 Tarif hinzufügen
-
-Tippen Sie auf **+ Strompreis hinzufügen**, um einen neuen **Kauf- oder Verkaufspreisplan** zu erstellen.
+Klicken Sie auf die Schaltfläche **+ Strompreis hinzufügen**, um einen neuen **Strombezugspreis oder Stromverkaufspreis** zu erstellen.
 <img src={require("./img/tariff.jpg").default} width="240"/>
-<img src={require("./img/electricity_price.jpg").default} width="240"/>
+<img src={require("./img/electricity_price.png").default} width="240"/>
 
-Der Einrichtungsprozess für Kauf- und Verkaufspreise ist ähnlich. Im Folgenden wird der Kaufpreis als Beispiel verwendet:
-<img src={require("./img/configure_price.jpg").default} width="240"/>
+Der Einrichtungsprozess für Bezugs- und Einspeisetarife ist ähnlich. Im Folgenden wird der Bezugstarif als Beispiel verwendet:
+<img src={require("./img/configure_price.png").default} width="240"/>
 
-1. Legen Sie die **Start- und Endzeit** des Tarifs fest.
-
-   - Die Endzeit ist standardmäßig auf „Jetzt“ gesetzt, d. h. der Preis bleibt gültig.
-
+1. Legen Sie die **Start- und Endzeit** des Tarifs fest.  
+   - Die Endzeit ist standardmäßig auf „Jetzt“ gesetzt, und der Tarif gilt fortlaufend.  
       <img src={require("./img/price_start_end_time1.jpg").default} width="240"/>
 
-   - Um Strompreise für einen vergangenen Zeitraum festzulegen, deaktivieren Sie den Schalter „Jetzt“ und wählen Sie den Zeitraum manuell aus.
-
+   - Um einen Zeitraum in der Vergangenheit festzulegen, deaktivieren Sie „Jetzt“ und wählen Sie den Zeitraum manuell aus.  
       <img src={require("./img/price_start_end_time2.jpg").default} width="240"/>
 
-2. Wählen Sie den **Bereich** Ihres Zuhauses aus.
-3. Wählen Sie Ihren **Stromlieferanten** aus der Liste.
-4. Konfigurieren Sie den **Stromtarif**:
-   - **Dynamisch**: Erfordert die Festlegung von Steuern und des monatlichen festen Grundpreises.
+2. Wählen Sie Ihren **Bereich** aus.  
+3. Wählen Sie Ihren Strom**anbieter** aus der Liste.  
+4. Wählen Sie entsprechend Ihrem Stromvertrag den **Tariftyp** und nehmen Sie die Konfiguration vor:  
 
-     <img src={require("./img/dynamic_tariff.jpg").default} width="240"/>
+   - **Festtarif**: Der Preis bleibt über den Tag konstant und ändert sich nicht. Legen Sie den aktuellen festen Bezugspreis fest.  
+       <img src={require("./img/fixed_rate.png").default} width="240"/>
 
-   - **Statisch**: Erfordert die Festlegung des Grundpreises sowie der zeitabhängigen Tarife (TOU) für verschiedene Zeiträume.
+   - **Zeitabhängiger Tarif**: Der Preis variiert je nach Zeitfenster, mit unterschiedlichen Tarifen für Spitzen- und Nebenzeiten. Legen Sie die Preise für die einzelnen Zeiträume fest.  
 
-     <img src={require("./img/static_tariff1.jpg").default} width="240"/>
-     <img src={require("./img/static_tariff2.jpg").default} width="240"/>
-     <img src={require("./img/static_tariff3.jpg").default} width="240"/>
+      <img src={require("./img/tou_rate1.png").default} width="240"/>
+      <img src={require("./img/tou_rate2.png").default} width="240"/>
 
-5. Tippen Sie auf **Speichern**.
+   - **Dynamischer Tarif**: Der Preis ändert sich in Echtzeit entsprechend dem Markt. Konfigurieren Sie die Berechnungsparameter:  
+     > Benutzerdefinierter Tarif = (Großhandelspreis x Koeffizient + Servicegebühr) x (1 + Mehrwertsteuer)
+      
+      <img src={require("./img/dynamic_rate.png").default} width="240"/>
+
+5. Klicken Sie auf **Speichern**, um die Tarifkonfiguration abzuschließen.
 
 :::info
 Die hier vorgenommenen Tarifeinstellungen dienen ausschließlich der Anzeige und Schätzung innerhalb der App. Die tatsächliche Abrechnung richtet sich nach den offiziellen Daten Ihres Stromversorgers.
@@ -308,7 +310,7 @@ Das System unterstützt vier Arten von Datenquellen: **Solar**, **Batterie**, **
 3. Klicken Sie rechts auf **Benutzerdefiniert** und wählen Sie ein oder mehrere Geräte als statistische Eingabe für diese Datenquelle aus.
 4. Nach Abschluss der Auswahl klicken Sie auf **Speichern**, um die Einstellungen zu übernehmen.
 
-   <img src={require("./img/profile_page.jpg").default} width="240"/>
+   <img src={require("./img/profile_page.png").default} width="240"/>
    <img src={require("./img/select_data_source.png").default} width="240"/>
    <img src={require("./img/tap_custom.png").default} width="240"/>
    <img src={require("./img/choose_data_source_device.png").default} width="240"/>
@@ -317,7 +319,7 @@ Das System unterstützt vier Arten von Datenquellen: **Solar**, **Batterie**, **
 ## 6. Darstellung
 
 Tippen Sie auf **Darstellung**, um das Erscheinungsbild und die Formatierung der App anzupassen.
-<img src={require("./img/profile_page.jpg").default} width="240"/>
+<img src={require("./img/profile_page.png").default} width="240"/>
 
 
 ### 6.1 Sprache
@@ -352,7 +354,7 @@ Tippen Sie auf **Speichern**, damit alle Änderungen sofort wirksam werden. Sie 
 
 Für eine einfachere Wartung können Sie über **Betriebsservices** Dienstleister (z. B. Händler oder Installateure) hinzufügen und verwalten. Nach der Autorisierung kann ein Dienstleister grundlegende Geräteinformationen einsehen, um gezielteren Support zu bieten.
 
-<img src={require("./img/profile_page.jpg").default} width="240"/>
+<img src={require("./img/profile_page.png").default} width="240"/>
 <img src={require("./img/operation_service.png").default} width="240"/>
 
 ## 8. Direktverbindung zum Gerät
@@ -379,7 +381,7 @@ Stellen Sie sicher, dass Bluetooth auf Ihrem Smartphone aktiviert ist und das Zi
 4. Nach erfolgreicher Verbindung können Sie Echtzeitdaten anzeigen, Lade-/Entladepläne festlegen und Parameter konfigurieren.
 5. Tippen Sie oben links auf den **Zurück-Pfeil (\<)**, um die Verbindung zu beenden.
 
-   <img src={require("./img/profile_page.jpg").default} width="240"/>
+   <img src={require("./img/profile_page.png").default} width="240"/>
    <img src={require("./img/scan_qr_code.jpg").default} width="240"/>
    <img src={require("./img/connect_device.png").default} width="240"/>
    <img src={require("./img/device_connected.png").default} width="240"/>

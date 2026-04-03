@@ -174,45 +174,48 @@ At the bottom of the home management page, tap **Delete**. After confirmation, t
 
 ## 3. Tariff
 
+After setting the electricity price in the app, the system can calculate energy costs and revenue, and enable features such as dynamic pricing mode and AI mode.
+
 Tap **Tariff** to enter the electricity price management interface.
 
 <img src={require("./img/profile_page.png").default} width="240"/>
 <img src={require("./img/tariff.png").default} width="240"/>
 
 
-### 3.1 Add Tariff
+### 3.1 Add Electricity Price
 
-Tap **+ Add Electricity Price** to create a new **purchase or selling price** plan.
+Click the **+ Add Electricity Price** button to create a new **import or export price**.
 <img src={require("./img/add_price.png").default} width="240"/>
 <img src={require("./img/electricity_price.png").default} width="240"/>
 
-The setup process for purchase and selling prices is similar. The purchase price is used as an example below:
+The setup process for import and export prices is similar. The following uses the import price as an example:
 <img src={require("./img/configure_price.png").default} width="240"/>
 
-1. Set the **start and end time** for the tariff.
-
-   - The end time is set to “Now” by default, meaning the price will remain effective.
-
+1. Set the **start and end time** of the pricing plan.  
+   - The end time is set to "Now" by default, and the price will continue to apply.  
       <img src={require("./img/price_start_end_time1.png").default} width="240"/>
 
-   - To set electricity prices for a historical period, turn off the “Now” toggle and manually select the time range.
-
+   - To configure a historical time period, turn off the "Now" option and manually select the time range.  
       <img src={require("./img/price_start_end_time2.png").default} width="240"/>
 
-2. Select your home’s **area**.
-3. Choose your **electricity supplier** from the list.
-4. Configure the **electricity tariff** plan:
-   - **Dynamic**: Requires setting taxes and the monthly fixed base price.
+2. Select your **area**.  
+3. Choose your electricity **supplier** from the list.  
+4. According to your electricity contract, select the **pricing type** and complete the configuration:  
 
-     <img src={require("./img/dynamic_tariff.png").default} width="240"/>
+   - **Fixed Rate**: The price remains constant throughout the day and does not change over time. Set the current fixed import price.  
+       <img src={require("./img/fixed_rate.png").default} width="240"/>
 
-   - **Static**: Requires setting the base price and the time-of-use (TOU) rates for different periods.
+   - **TOU Rate**: Prices vary by time periods, with different rates for peak and off-peak hours. Set prices for each time period of the day.  
 
-     <img src={require("./img/static_tariff1.png").default} width="240"/>
-     <img src={require("./img/static_tariff2.png").default} width="240"/>
-     <img src={require("./img/static_tariff3.png").default} width="240"/>
+      <img src={require("./img/tou_rate1.png").default} width="240"/>
+      <img src={require("./img/tou_rate2.png").default} width="240"/>
 
-5. Tap **Save**.
+   - **Dynamic Rate**: Prices change in real time based on the market. Configure the pricing formula:  
+     > Custom tariff = (Wholesale price × Coefficient + Service fee) × (1 + VAT)
+      
+      <img src={require("./img/dynamic_rate.png").default} width="240"/>
+
+5. Click **Save** to complete the pricing configuration.
 
 :::info
 The tariff settings here are used for in-app visualization and estimation only. Actual billing is subject to your electricity provider’s official data.
