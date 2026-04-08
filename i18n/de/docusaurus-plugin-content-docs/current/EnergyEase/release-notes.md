@@ -5,6 +5,16 @@ description: Versionsverlauf und Funktionsverbesserungen der Energy-Ease-App.
 
 # Versionshinweise
 
+## V2.2.11
+
+- Ethernet-Verbindung für stabilere Netzwerke hinzugefügt
+- Unterstützung für weitere Stromtarife (z. B. Tempo)
+- Verbesserte intelligente Energiestrategien
+- Optimierte Geräteeinrichtung und Benutzererfahrung
+- Allgemeine Leistungs- und Stabilitätsverbesserungen
+
+---
+
 ## V2.2.10
 
 - Benutzerdefinierte Lade- und Entladezeitpläne mit 15-Minuten-Intervallen hinzugefügt

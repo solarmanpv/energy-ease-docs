@@ -5,6 +5,16 @@ description: Historique des mises à jour et améliorations des fonctionnalités
 
 # Notes de version
 
+## V2.2.11
+
+- Ajout de la connexion Ethernet pour plus de stabilité
+- Prise en charge de nouveaux tarifs (ex. Tempo)
+- Amélioration des stratégies énergétiques intelligentes
+- Expérience d’installation des appareils optimisée
+- Améliorations générales des performances et de la stabilité
+
+---
+
 ## V2.2.10
 
 - Ajout de la planification personnalisée de charge et décharge avec des intervalles de 15 minutes
