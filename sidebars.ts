@@ -71,6 +71,15 @@ const sidebars: SidebarsConfig = {
             'EnergyEase/solax'
           ],
         },
+        {
+          type: 'category',
+          label: 'Module Replacement',
+          collapsed: false,
+          items: [
+            'EnergyEase/module-replacement',
+            'EnergyEase/accessory-replacement'
+          ],
+        },
       ],
     },
     'EnergyEase/faq'
