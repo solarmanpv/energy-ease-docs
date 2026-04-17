@@ -1,11 +1,11 @@
 ---
 title: Accessory Replacement – App User Guide
-description: todo
+description: Learn how to replace the accessory and migrate settings and data using the app
 ---
 
 # Accessory Replacement – App User Guide
 
-## 1. Accessing the Feature
+## 1. Access the Feature
 
 1. Open the app and go to Me. Tap Accessory Replacement to enter the module 
 <img src={require("./img/accessory_replacement.png").default} width="240"/>
