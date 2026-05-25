@@ -1,11 +1,11 @@
 ---
-title: Intelligent
-description: Intelligente Steuerung des Energieverbrauchs zur optimalen Nutzung von Strompreisunterschieden für Einsparungen und zusätzliche Einnahmen.
+title: Smart
+description: Intelligente Steuerung des Energieverbrauchs zur optimalen Nutzung von Strompreisunterschieden für Einsparungen und zusätzliche Erträge.
 ---
 
-# Intelligent
+# Smart
 
-Die intelligente Funktion passt die Lade- und Entladestrategie der Batterie automatisch an – entweder durch den **Dynamischen Tarifmodus** oder den **KI-Modus**. Dadurch werden Strompreisunterschiede und Photovoltaik-Erzeugung optimal genutzt, um die Energieeffizienz zu steigern und den Ertrag zu maximieren.
+Die Smart-Funktion optimiert automatisch die Lade- und Entladestrategie der Batterie – entweder über den **Dynamischen Tarifmodus** oder den **KI-Modus**. Dadurch werden Strompreise und Photovoltaik-Erzeugung intelligent genutzt, um die Energieeffizienz zu erhöhen und den wirtschaftlichen Ertrag zu maximieren.
 
 
 ## 1. Dynamischer Tarifmodus
