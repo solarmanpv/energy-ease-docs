@@ -5,6 +5,32 @@ description: Versionsverlauf und Funktionsverbesserungen der Energy-Ease-App.
 
 # Versionshinweise
 
+
+## V2.3.0
+
+- Neue Gerätefunktionen und Bedienhilfen hinzugefügt
+- Lade-/Entladepläne und Energiemanagement optimiert
+- Strompreisbenachrichtigungen und Verbindungsstabilität verbessert
+- Bekannte Probleme behoben und die allgemeine Benutzererfahrung verbessert
+
+---
+
+## V2.2.13
+
+- Ethernet-Verbindung für stabilere Netzwerke hinzugefügt
+- Unterstützung für weitere Stromtarife (z. B. Tempo)
+- Verbesserte intelligente Energiestrategien
+- Optimierte Geräteeinrichtung und Benutzererfahrung
+- Allgemeine Leistungs- und Stabilitätsverbesserungen
+
+---
+
+## V2.2.12
+
+Bekannte Probleme behoben und die System­sicherheit sowie Stabilität verbessert.
+
+---
+
 ## V2.2.11
 
 - Ethernet-Verbindung für stabilere Netzwerke hinzugefügt

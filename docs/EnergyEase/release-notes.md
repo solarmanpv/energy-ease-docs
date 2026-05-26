@@ -5,6 +5,33 @@ description: Energy Ease App version update history and feature improvements.
 
 # Release Notes
 
+
+
+## V2.3.0
+
+- Added new device features and operation guidance
+- Optimized charging/discharging schedules and energy management experience
+- Improved electricity price notifications and device connection stability
+- Fixed known issues and enhanced overall user experience
+
+---
+
+## V2.2.13
+
+- Added Ethernet connection for more stable networking
+- Support for additional energy tariffs (e.g. Tempo)
+- Improved smart energy strategies for better performance
+- Enhanced device setup and user experience
+- General performance and stability improvements
+
+---
+
+## V2.2.12
+
+- Fixed known issues and improved system security and stability.
+
+---
+
 ## V2.2.11
 
 - Added Ethernet connection for more stable networking
