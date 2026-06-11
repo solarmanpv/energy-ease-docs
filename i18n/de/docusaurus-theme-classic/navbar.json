@@ -7,8 +7,8 @@
     "message": "Energy Ease",
     "description": "The title in the navbar"
   },
-  "item.label.Docs": {
-    "message": "Docs",
-    "description": "Navbar item with label Docs"
+  "item.label.User Manual": {
+    "message": "Benutzerhandbuch",
+    "description": "Navbar item with label User Manual"
   }
 }

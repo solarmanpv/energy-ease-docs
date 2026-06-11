@@ -5,7 +5,16 @@ description: Energy Ease App version update history and feature improvements.
 
 # Release Notes
 
+## V2.4.0
 
+- Added new smart energy management features
+- Optimized electricity pricing strategies and AI experience
+- Improved home page experience and electricity price display
+- Added support for more device and accessory configurations
+- Enhanced system stability and overall user experience
+- Fixed known issues
+
+---
 
 ## V2.3.0
 
