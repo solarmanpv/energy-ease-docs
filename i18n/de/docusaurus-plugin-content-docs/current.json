@@ -27,18 +27,6 @@
     "message": "Dieser Abschnitt führt Sie durch die wichtigsten Funktionen, von der Energieüberwachung bis zu den persönlichen Einstellungen.",
     "description": "The generated-index page description for category Using EnergyEase in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Brand Connection": {
-    "message": "Energie-Integrationen",
-    "description": "The label for category Brand Connection in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Brand Connection.link.generated-index.title": {
-    "message": "Energie-Integrationen",
-    "description": "The generated-index page title for category Brand Connection in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Brand Connection.link.generated-index.description": {
-    "message": "\n            Verbinden Sie Ihre Heimenergiegeräte mit unterstützten Marken. Tippen Sie auf der Profilseite auf „Energie-Integrationen“, wählen Sie die gewünschte Marke aus und folgen Sie der entsprechenden Anleitung unten, um die erforderlichen API-Zugangsdaten oder andere Autorisierungsinformationen zu erhalten.\n            ",
-    "description": "The generated-index page description for category Brand Connection in sidebar tutorialSidebar"
-  },
   "sidebar.tutorialSidebar.category.Module Replacement": {
     "message": "Module Replacement",
     "description": "The label for category Module Replacement in sidebar tutorialSidebar"

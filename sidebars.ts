@@ -57,13 +57,7 @@ const sidebars: SidebarsConfig = {
           type: 'category',
           label: 'Brand Connection',
           collapsed: false,
-          link: {
-            type: 'generated-index',
-            title: 'Brand Connection',
-            description: `
-            Connect your home energy devices to supported brands. On the Profile page, tap Brand Connection, select the brand you want to connect, and follow the corresponding guide below to obtain the required API credentials or other authorization information.
-            `,
-          },
+          link: {type: 'doc', id: 'EnergyEase/brand-connection'},
           items: [
             'EnergyEase/solaredge',
             'EnergyEase/growatt',
