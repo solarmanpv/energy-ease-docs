@@ -30,5 +30,9 @@
   "sidebar.tutorialSidebar.category.Module Replacement": {
     "message": "Module Replacement",
     "description": "The label for category Module Replacement in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Brand Connection": {
+    "message": "连接能源品牌",
+    "description": "The label for category Brand Connection in sidebar tutorialSidebar"
   }
 }
