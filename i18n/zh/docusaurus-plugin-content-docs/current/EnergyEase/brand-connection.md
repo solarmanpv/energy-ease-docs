@@ -44,6 +44,7 @@ CLOUD --> APP
 * SolarEdge
 * SolaX
 * Solplanet
+* Sungrow
 
 后续将持续支持更多品牌。
 

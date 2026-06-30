@@ -59,10 +59,11 @@ const sidebars: SidebarsConfig = {
           collapsed: false,
           link: {type: 'doc', id: 'EnergyEase/brand-connection'},
           items: [
-            'EnergyEase/solaredge',
-            'EnergyEase/growatt',
             'EnergyEase/goodwe',
-            'EnergyEase/solax'
+            'EnergyEase/growatt',
+            'EnergyEase/solaredge',
+            'EnergyEase/solax',
+            'EnergyEase/sungrow',
           ],
         },
         {
