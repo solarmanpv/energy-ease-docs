@@ -45,6 +45,7 @@ Marques actuellement supportées :
 - SolarEdge
 - SolaX
 - Solplanet
+- Sungrow
 
 D’autres marques seront ajoutées progressivement.
 
