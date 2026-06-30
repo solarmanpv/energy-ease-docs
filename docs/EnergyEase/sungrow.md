@@ -3,7 +3,7 @@ title: Sungrow
 description: How to obtain the Appkey and Secret Key for Sungrow iSolarCloud.
 ---
 
-# How to Get the Sungrow Appkey and Secret Key
+# How to Get the Sungrow Appkey and Secret key
 
 Follow the steps below to create an application in the Sungrow Developer Portal and obtain your **Appkey** and **Secret key**.
 
@@ -26,7 +26,7 @@ Follow the steps below to create an application in the Sungrow Developer Portal 
 5. Fill in the application information:
 
    - **Application name**: Enter the app name (Energy Ease) or another recognizable name, such as `My Home EMS`.
-   - **Company name**: Company name: Enter the name of the home created in the app or another suitable identifier, such as `My Home`.
+   - **Company name**: Enter the name of the home created in the app or another suitable identifier, such as `My Home`.
    - **Application description**: Enter a brief description, such as `Data Integration`.
    - **Authorize with OAuth2.0**: Select **No**
 

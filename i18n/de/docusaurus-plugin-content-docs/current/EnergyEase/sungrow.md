@@ -3,7 +3,7 @@ title: Sungrow
 description: So erhalten Sie den Appkey und den Secret key für Sungrow iSolarCloud.
 ---
 
-# So erhalten Sie den Appkey und den Secret Key
+# So erhalten Sie den Appkey und den Secret key
 
 Führen Sie die folgenden Schritte aus, um im Sungrow Developer Portal eine Anwendung zu erstellen und Ihren **Appkey** sowie **Secret key** zu erhalten.
 
