@@ -5,6 +5,25 @@ description: Historique des mises à jour et améliorations des fonctionnalités
 
 # Notes de version
 
+## V2.4.7
+
+- Amélioration de la gestion de l’énergie à domicile
+- Ajout de nouvelles fonctionnalités de configuration des appareils pour davantage de scénarios d’utilisation
+- Amélioration du suivi énergétique et de l’affichage des données
+- Amélioration des performances et de la stabilité de l’application
+
+---
+
+## V2.4.6
+
+- Ajout de la configuration du type de prise pour prendre en charge davantage de scénarios d'utilisation
+- Ajout de l'assistant de configuration P1-2WR pour simplifier le processus de configuration des appareils
+- Optimisation de la présentation des données pour des graphiques et des informations de puissance plus clairs
+- Ajout de paramètres d'API locale pour une plus grande flexibilité d'intégration des appareils
+- Correction de problèmes connus et amélioration de la stabilité de l'application
+
+---
+
 ## V2.4.5
 
 - Amélioration de la gestion de l’énergie à domicile

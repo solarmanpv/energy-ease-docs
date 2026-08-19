@@ -5,6 +5,25 @@ description: Versionsverlauf und Funktionsverbesserungen der Energy-Ease-App.
 
 # Versionshinweise
 
+## V2.4.7
+
+- Optimierte Verwaltung des Energiesystems zu Hause
+- Neue Funktionen für die Gerätekonfiguration für weitere Anwendungsszenarien hinzugefügt
+- Optimierte Energieauswertungen und Datenanzeige
+- Leistung und Stabilität der App verbessert
+
+---
+
+## V2.4.6
+
+- Konfiguration des Steckdosentyps hinzugefügt, um weitere Anwendungsszenarien zu unterstützen
+- P1-2WR-Einrichtungsassistent hinzugefügt, um die Gerätekonfiguration zu vereinfachen
+- Datenvisualisierung für klarere Diagramme und Leistungsinformationen optimiert
+- Lokale API-Einstellungen für größere Flexibilität bei der Geräteintegration hinzugefügt
+- Bekannte Probleme behoben und die App-Stabilität verbessert
+
+---
+
 ## V2.4.5
 
 - Optimierte Verwaltung des Energiesystems zu Hause
