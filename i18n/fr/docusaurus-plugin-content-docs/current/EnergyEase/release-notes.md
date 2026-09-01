@@ -5,6 +5,15 @@ description: Historique des mises à jour et améliorations des fonctionnalités
 
 # Notes de version
 
+## V2.4.8
+
+- Ajout de la prise en charge d'unités monétaires supplémentaires (¥, €, £, $, kr, zł)
+- Ajout d'un nouveau mode de fonctionnement pour les appareils australiens afin de s'adapter aux scénarios d'utilisation locaux
+- Ajout d'une invite de redémarrage lors de la mise à jour du firmware pour rappeler de couper l'alimentation de l'appareil pour certaines versions
+- Correction de problèmes connus et amélioration de la stabilité de l'application
+
+---
+
 ## V2.4.7
 
 - Amélioration de la gestion de l’énergie à domicile
