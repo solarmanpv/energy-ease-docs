@@ -3,55 +3,51 @@ title: SolarEdge
 description: How to Get SolarEdge Client ID and Client Secret
 ---
 
-# 如何获取 SolarEdge Client ID 和 Client Secret
+# How to Get SolarEdge Client ID and Client Secret
 
-使用 SolarEdge 设备前，请先将 Energy Ease App 更新至最新版本。
+Before using SolarEdge devices, please update your Energy Ease App to the latest version.
 
-在 Energy Ease App 中连接 SolarEdge 时，您需要先填写 **Client ID** 和 **Client Secret**。填写完成后，Energy Ease App 会跳转至 SolarEdge 页面，登录您的 SolarEdge 账号并完成授权。
+When connecting SolarEdge in the Energy Ease App, you need to enter your **Client ID** and **Client Secret** first. After entering them, the Energy Ease App will redirect you to the SolarEdge page. Log in to your SolarEdge account and complete the authorization.
 
-> **注意**
+> **Note**
 >
-> SolarEdge 免费 API 计划每月提供 **2000 credits**，因此设备数据默认约每 **15 分钟**更新一次。
+> The free SolarEdge API plan provides **2,000 credits per month**, so device data is updated approximately every **15 minutes** by default.
 
-## 如何获取 SolarEdge Client ID 和 Client Secret？
+## How to Get SolarEdge Client ID and Client Secret?
 
-### 第一步
+### Step 1
 
-进入 [SolarEdge Developer Console](https://developer.solaredge.com/)，使用您现有的 SolarEdge 账号登录。
+Go to the [SolarEdge Developer Console](https://developer.solaredge.com/) and sign in with your existing SolarEdge account.
 
-### 第二步
+### Step 2
 
-在 Developer Console 中创建一个 **Site Access** 类型的应用。
+Create an application of type **Site Access** in the Developer Console.
 
 <img src={require("./img/solaredge_step2.png").default} />
 
-### 第三步
+### Step 3
 
-点击已创建的应用名称，进入应用的 **Settings** 设置页面。
+Click the name of the application you created to open the **Settings** page.
 
 <img src={require("./img/solaredge_step3.png").default} />
 
-在 **Settings** 页面中，将以下两个地址设置为 Energy Ease 的域名：
+On the **Settings** page, set the following two URLs to the Energy Ease domain:
 
-- **Allowed Redirect URL(s)**：`https://manosdatahubse.energy-ease.com`
-- **Allowed Returned URL(s) (Optional)**：`https://manosdatahubse.energy-ease.com`
+- **Allowed Redirect URL(s)**: `https://manosdatahubse.energy-ease.com`
+- **Allowed Returned URL(s) (Optional)**: `https://manosdatahubse.energy-ease.com`
 
-> **注意**
+> **Note**
 >
-> 请确保上述地址填写正确，否则可能无法完成 SolarEdge 授权。
+> Make sure the URLs above are entered correctly. Otherwise, the SolarEdge authorization may fail.
 
-### 第四步
+### Step 4
 
-进入 **Credentials** 页面，查看您的 **Client ID** 和 **Client Secret**。
+Go to the **Credentials** page to view your **Client ID** and **Client Secret**.
 
 <img src={require("./img/solaredge_step4.png").default} />
 
-如果无法找到 **Client Secret**，可以点击 **Regenerate Secret** 重新生成。
+If you cannot find the **Client Secret**, click **Regenerate Secret** to generate a new one.
 
-> **注意**
+> **Note**
 >
-> 重新生成 Client Secret 后，请使用新的 Client Secret 完成后续授权。
-
-
-
-
+> After regenerating the Client Secret, use the new Client Secret to complete the subsequent authorization.
