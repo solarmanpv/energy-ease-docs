@@ -1,60 +1,57 @@
 ---
 title: SolarEdge
-description: How to get SolarEdge API Key and Site ID
+description: How to Get SolarEdge Client ID and Client Secret
 ---
 
-# How to get SolarEdge API Key and Site ID
+# 如何获取 SolarEdge Client ID 和 Client Secret
 
-There are three options to get SolarEdge API Key and Site ID:
+使用 SolarEdge 设备前，请先将 Energy Ease App 更新至最新版本。
 
-- **Option 1**: Get them yourself by logging in to your [SolarEdge monitoring account](https://monitoring.solaredge.com/).
-- **Option 2**: Contact your installer by email and ask them to grant you admin access or provide your API Key and Site ID.
-- **Option 3**: Request the information from [SolarEdge chat support](https://www.solaredge.com/us/support).
+在 Energy Ease App 中连接 SolarEdge 时，您需要先填写 **Client ID** 和 **Client Secret**。填写完成后，Energy Ease App 会跳转至 SolarEdge 页面，登录您的 SolarEdge 账号并完成授权。
 
----
+> **注意**
+>
+> SolarEdge 免费 API 计划每月提供 **2000 credits**，因此设备数据默认约每 **15 分钟**更新一次。
 
-## Option 1: Get them yourself
+## 如何获取 SolarEdge Client ID 和 Client Secret？
 
-**Step 1**
+### 第一步
 
-Log in to your [SolarEdge monitoring account](https://monitoring.solaredge.com/).
+进入 [SolarEdge Developer Console](https://developer.solaredge.com/)，使用您现有的 SolarEdge 账号登录。
 
-**Step 2**
+### 第二步
 
-If your account has **Admin** permissions, an **Admin** link will appear in the top menu. Click it to access the **Admin** area.
+在 Developer Console 中创建一个 **Site Access** 类型的应用。
 
 <img src={require("./img/solaredge_step2.png").default} />
 
-<details open>
-  <summary>**Problem**: I don’t see the “Admin” menu item! If this is the case, move on to **Option 2**.</summary>
+### 第三步
 
-  **Solution**: You can either:
-  - _(preferred)_ Request “Admin access” to your account by emailing your installer. 
-  - Ask your installer to retrieve and send you your **API Key**. You can send them a link to this page in case they don’t know how to.
-
-</details>
-
-**Step 3**
-
-Once you’re in the **Admin** area, click **Site Access**, then **Access Control**. Refer to the screenshot below.
+点击已创建的应用名称，进入应用的 **Settings** 设置页面。
 
 <img src={require("./img/solaredge_step3.png").default} />
 
-**Step 4**
+在 **Settings** 页面中，将以下两个地址设置为 Energy Ease 的域名：
 
-- Scroll down to the “API Access” area.
-- **Check the box** "I have read, understood…".
-- **Click Save**.
-- After clicking save, click the "Ok" box that pops up.
-- To copy the **entire API Key**, double-click on the long key code. Copy and paste it.
-- Copy the **Site ID**.
+- **Allowed Redirect URL(s)**：`https://manosdatahubse.energy-ease.com`
+- **Allowed Returned URL(s) (Optional)**：`https://manosdatahubse.energy-ease.com`
 
-**Step 5**
+> **注意**
+>
+> 请确保上述地址填写正确，否则可能无法完成 SolarEdge 授权。
 
-You’ve done it! You can paste the **API Key** or **Site ID** into the required fields in the Energy Ease App. 
+### 第四步
 
-:::note
-1. if you ever click “New key” it may break an existing API connection that is working. If that’s the case, you may need to re-send the new API Key.
-2. To avoid triggering API rate limits and ensure your device data can be updated normally, please refrain from using the same API across multiple applications.
-3. After **API Key** or **Site ID** is filled and SolarEdge device is online, you might need to wait for 5-10 minutes to see the device SN under SolarEdge device list.
-:::
+进入 **Credentials** 页面，查看您的 **Client ID** 和 **Client Secret**。
+
+<img src={require("./img/solaredge_step4.png").default} />
+
+如果无法找到 **Client Secret**，可以点击 **Regenerate Secret** 重新生成。
+
+> **注意**
+>
+> 重新生成 Client Secret 后，请使用新的 Client Secret 完成后续授权。
+
+
+
+
